@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git init
+nodenv install 14.15.0
 nodenv local 14.15.0
 npm init -y
 npm i -D prettier typescript @types/node@14 ts-node nodemon jest @types/jest ts-jest
